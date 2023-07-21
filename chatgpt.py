@@ -13,7 +13,7 @@ from langchain.vectorstores import Chroma
 
 import constants
 
-os.environ["OPENAI_API_KEY"] = constants.APIKEY
+os.environ["OPENAI_API_KEY"] = "api-key-goes-here"
 
 # Enable to save to disk & reuse the model (for repeated queries on the same data)
 PERSIST = False
